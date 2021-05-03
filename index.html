@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+  <html lang="en">
+  
+  <head>
+  	<meta charset="utf-8">
+  	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  	<link rel="stylesheet" href="realtime.css">
+  	<title>リアルタイムフィルター</title>
+  </head>
+ 
+  <body>
+	  <h3>リアルタイムフィルター</h3>
+	  <div class="search-area">
+      <form>
+        <input type="text" id="search-text" placeholder="検索ワードを入力">
+        <p>入力した文字を含まない場合、非表示となります。</p>
+      </form>
+    <div class="search-result">
+      <div class="search-result__hit-num"></div>
+      <div id="search-result__list"></div>
+    </div>
+    </div>
+   
+    <div class="image-container content-width">
+    	<div id="image-contents">
+    	  <div class="image-content">
+    	  	<img src="https://free-materials.com/adm/wp-content/uploads/2019/01/adpDSC_2005-750x500.jpg">
+    	    <p>キーワード</p>
+          <p id="key1">dog inu animal 犬 いぬ 柴犬</p>
+    	  </div>
+    	  <div class="image-content">
+    	  	<img src="https://pakutaso.cdn.rabify.me/shared/img/thumb/susipaku211-app90962.jpg.webp?d=1420"> 
+    	    <p>キーワード</p>
+          <p id="key2">neko cat 猫 ネコ animal</p>
+    	  </div>
+    	  <div class="image-content">
+    	  	<img src="https://pakutaso.cdn.rabify.me/shared/img/thumb/sakura430-11.jpg.webp?d=1420"> 
+    	    <p>キーワード</p>
+          <p id="key3">hydrangea ajisai hana 花 紫陽花 アジサイ あじさい</p>
+    	  </div>
+    	  <div class="image-content">
+    	  	<img src="https://pakutaso.cdn.rabify.me/shared/img/thumb/020ameman53.jpg.webp?d=710"> 
+    	    <p>キーワード</p>
+          <p id="key4">fireworks hanabi 花火 はなび</p>
+        </div>
+      </div>
+    </div>  
+    <script src="realtime.js"></script>
+  </body>
+    
+</html>
